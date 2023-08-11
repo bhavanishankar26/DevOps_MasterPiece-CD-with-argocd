@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: spring-app
-  type: NodePort
+  type: LoadBalancer
   ports:
   - name: http
     port: 8081
