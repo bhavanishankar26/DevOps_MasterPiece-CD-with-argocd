@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-app
-        image: kumarijessie/spring-app:28-429dddf1ce9840b6a8a6bea76ac103d7637a5c0d
+        image: kumarijessie/spring-app:32-429dddf1ce9840b6a8a6bea76ac103d7637a5c0d
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8081
